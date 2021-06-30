@@ -1,0 +1,8 @@
+.book-row {
+  height: 150px;
+}
+
+.book-img {
+  max-height: 100%;
+  width: auto;
+}
