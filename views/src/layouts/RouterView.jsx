@@ -1,9 +1,9 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
-import HomePage from "../Pages/HomePage";
-import BookPage from "../Pages/BookPage";
-import ChallengePage from "../Pages/ChallengePage";
+import HomePage from "../pages/HomePage";
+import BookPage from "../pages/BookPage";
+import ChallengePage from "../pages/ChallengePage";
 
 const RouterView = () => {
   return (
