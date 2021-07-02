@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 //style import
 import layout from "../../styles/row.css";
-import image from "../../styles/image.css";
 import styles from "./BookRow.css";
 
 const BookRow = (props) => {
