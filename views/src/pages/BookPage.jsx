@@ -1,6 +1,7 @@
 import React from "react";
 
 import BookRow from "../components/Books/BookRow";
+import row from "../styles/row.css";
 
 const data = [
   {
@@ -22,11 +23,11 @@ const data = [
 
 const BookPage = () => {
   return (
-    <main>
+    <div className={`${row.row}`}>
       {data.map((book) => (
         <BookRow img={book.img} title={book.title} />
       ))}
-    </main>
+    </div>
   );
 };
 

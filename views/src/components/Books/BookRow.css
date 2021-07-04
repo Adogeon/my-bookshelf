@@ -1,8 +1,15 @@
 .book-row {
-  height: 150px;
+  display: flex;
+  gap: 2rem;
 }
 
 .book-img {
-  max-height: 100%;
-  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.book-card {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
 }

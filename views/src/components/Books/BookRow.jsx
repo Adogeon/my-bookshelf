@@ -6,12 +6,12 @@ import styles from "./BookRow.css";
 
 const BookRow = (props) => {
   return (
-    <Link to={"/book/:bookId"}>
-      <div class={`${layout.row} ${styles["book-row"]}`}>
-        <span class={`${layout[`col-3`]}`}>
-          <img class={`${styles[`book-img`]}`} src={props.img} />
+    <Link to={"/book/:bookId"} className={`${layout["col-2"]}`}>
+      <div className={` ${styles["book-card"]}`}>
+        <span>
+          <img className={`${styles[`book-img`]}`} src={props.img} />
         </span>
-        <span class={`${layout[`col-9`]}`}>{props.title}</span>
+        <span className={`${layout[`col-9`]}`}>{props.title}</span>
       </div>
     </Link>
   );

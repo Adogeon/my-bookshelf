@@ -1,0 +1,11 @@
+.nav-bar {
+  display: flex;
+  padding: 1em 2em;
+  gap: 1em;
+}
+
+.nav-item {
+  height: 100%;
+  text-decoration: none;
+  color: gray;
+}
