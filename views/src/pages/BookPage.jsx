@@ -25,7 +25,7 @@ const BookPage = () => {
   return (
     <div className={`${row.row}`}>
       {data.map((book) => (
-        <BookRow img={book.img} title={book.title} />
+        <BookRow img={book.img} title={book.title} bookId={book.id} />
       ))}
     </div>
   );

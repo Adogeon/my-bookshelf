@@ -6,7 +6,7 @@ import styles from "./BookRow.css";
 
 const BookRow = (props) => {
   return (
-    <Link to={"/book/:bookId"} className={`${layout["col-2"]}`}>
+    <Link to={`/book/${props.bookId}`} className={`${layout["col-2"]}`}>
       <div className={` ${styles["book-card"]}`}>
         <span>
           <img className={`${styles[`book-img`]}`} src={props.img} />
