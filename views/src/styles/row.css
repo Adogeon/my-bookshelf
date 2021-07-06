@@ -9,6 +9,10 @@
   width: 8.333%;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .col-2 {
   width: 16.667%;
 }
