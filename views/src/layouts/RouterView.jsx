@@ -25,6 +25,9 @@ const RouterView = () => {
       <Route path="/challenge/:challengeId">
         <ChallengeDetail />
       </Route>
+      <Route path="/challenge/new">
+        <NewChallenge />
+      </Route>
     </Switch>
   );
 };
